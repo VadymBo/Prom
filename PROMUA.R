@@ -1,5 +1,5 @@
 library(data.table)
-library(knitr)
+
 
 data<-fread('2013.csv', colClasses='character')
 data<-as.data.frame(data)
